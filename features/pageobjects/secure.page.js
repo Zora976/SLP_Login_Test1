@@ -7,7 +7,7 @@ class SecurePage extends Page {
     /**
      * define selectors using getter methods
      */
-    get flashAlert () { return $('#flash') }
+    get adminMenu () { return $('#test-logout-btn') }
 }
 
 module.exports = new SecurePage();
